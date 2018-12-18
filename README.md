@@ -1,15 +1,13 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
-
-### Author: Student/Group Name
-
+## 00Deployment
+### Author: Jared
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+[![Build Status](https://www.travis-ci.com/jaredpattison/00-deployment.svg?branch=master)](https://www.travis-ci.com/jaredpattison/00-deployment)
+* [repo](https://github.com/jaredpattison/00-deployment)
+* [travis](https://www.travis-ci.com/jaredpattison/00-deployment)
+* [server](https://jared00.herokuapp.com/)
 
 ### Modules
 #### `modulename.js`
@@ -23,7 +21,7 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
+* `PORT` - Defined in the ENV
 * `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
