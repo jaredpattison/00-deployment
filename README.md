@@ -10,8 +10,11 @@
 * [server](https://jared00.herokuapp.com/)
 
 ### Modules
-#### `modulename.js`
+#### `pol.js`
 ##### Exported Values and Methods
+* `isAlive`
+* Returns true or false
+  * false if a parameter is sent
 
 ###### `foo(thing) -> string`
 Usage Notes or examples
@@ -26,15 +29,12 @@ Usage Notes or examples
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns `true`
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* npm tests (Runs Unit Tests)
+* npm run lint (Runs Linter Tests)
 
 #### UML
 Link to an image of the UML for your application and response to events
